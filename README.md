@@ -1,0 +1,1 @@
+This is the Capstone project for Phase 1 for the Software Engineering program for Flatiron School. This project will demostrate my profficiency with vanilla JavaScript. It will include the use of functions, methods, eventlisteners and fetch requests.
