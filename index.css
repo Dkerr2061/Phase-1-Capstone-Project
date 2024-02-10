@@ -1,17 +1,17 @@
 body {
   padding: 1rem;
   text-align: center;
-  background-color: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(180, 30, 60, 0.811);
+  background-color: rgba(163, 91, 91, 0.837);
 }
 
 
 header {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 form {
   margin: 1rem 0;
@@ -23,6 +23,7 @@ form {
 
 div {
   text-align: center;
+  font-family: Courier, monospace;
 }
 
 input,
@@ -41,14 +42,42 @@ input[type="submit"] {
   background-color: black;
   cursor: pointer;
   transition: all 0.3s;
+  border-radius: 30px;
+  width: 30;
+  font-family: miller-display;
 }
 
 input[type="submit"]:active {
-  background-color: gray;
+  background-color: white;
+  opacity: 0.5;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.2;
+  box-shadow: 5px 5px 10px black;
 }
 
 label {
   color: black;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  font-family: apple chancery, cursive;
+}
+
+#movie-display {
+  display: flex;
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: calc(100vw - 2rem);
+}
+
+#movie-display img {
+  flex: 0 1 auto;
+  height: 150px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+#movie-display img:last-child {
+  margin-right: 0;
 }
