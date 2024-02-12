@@ -54,19 +54,24 @@ const displayMainMovies = () => {
   })
 }
 
-const addMoviesToMainDataBase = () => {}
+const addMoviesToMainDataBase = () => {
+  const movieListDatabaseSubmitButton = document.getElementById('add-movie-button')
+    movieListDatabaseSubmitButton.addEventListener('click', () => {
+      handleSubmit()
+    })
+}
 
-const displayFavoriteMovies = () => {}
+// const displayFavoriteMovies = () => {}
 
-const displayWatchlistMovies = () => {}
+// const displayWatchlistMovies = () => {}
 
-const addMoviesToFavoriteDatabase = () => {}
+// const addMoviesToFavoriteDatabase = () => {}
 
-const addMoviesToWatchlistDatabase = () => {}
+// const addMoviesToWatchlistDatabase = () => {}
 
-const deleteMoviesFromFavoriteDatabase = () => {}
+// const deleteMoviesFromFavoriteDatabase = () => {}
 
-const deleteMoviesFromWatchlistDatabase = () => {}
+// const deleteMoviesFromWatchlistDatabase = () => {}
 
 const handleSubmit = () => {
   const newMovieForm = document.getElementById('add-movie')
@@ -86,8 +91,8 @@ const handleSubmit = () => {
   const newMovieDescription = document.getElementById('new-description')
   const movieImageElement = document.createElement('img')
       movieImageElement.src = newMovieImage.value
-      console.log(mainMovieDisplayDiv)
       mainMovieDisplayDiv.appendChild(movieImageElement)
+
   const newMovieObject = {
     name: newMovieName.value,
     releaseYear: newMovieYear.value,
@@ -105,6 +110,16 @@ const handleSubmit = () => {
   }
   movieImageElement.addEventListener('click', () => {
     clickOnMovies(newMovieObject)
+  })
+
+  console.log(JSON.stringify(newMovieObject))
+
+  fetch('http://localhost:3000/movieList', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(newMovieObject)
   })
 
     newMovieForm.reset()
@@ -128,7 +143,8 @@ const handleSubmit = () => {
 const initialize = () => {
   displayMainMovies()
   // clickOnMovies()
-  handleSubmit()
+  // handleSubmit()
+ addMoviesToMainDataBase()
 }
 
 initialize()
