@@ -34,8 +34,12 @@
           <p id="movie-detail-top-cast"></p>
         <h4>Genre:</h4>
           <p id="movie-detail-genre"></p>
+        <h4>Animated:</h4>
+          <p id="movie-detail-is-animated"></p>
+        <h4>Live Action:</h4>
+          <p id="movie-detail-live-action"></p>
         <h4>Description:</h4>
-        <p id="movie-detail-description"></p>
+          <p id="movie-detail-description"></p>
       </div>
 
       <form id="add-movie">
@@ -47,15 +51,23 @@
         <input type="text" name="movie-poster" id="new-movie-poster"/>
         <label for="new-director">Director:</label>
         <input type="text" name="director" id="new-director"/>
-        <label for="new-top-cast">Top Cast:</label>
-        <input type="text" name="top-cast" id="new-top-cast"/>
+        <label for="new-lead-actor">Lead Actor:</label>
+        <input type="text" name="lead-actor" id="new-lead-actor"/>
+        <label for="new-support-actor">Support Actor:</label>
+        <input type="text" name="support-actor" id="new-support-actor"/>
+        <label for="new-second-support-actor">Second Supporting Actor:</label>
+        <input type="text" name="second-support-actor" id="new-second-support-actor"/>
         <label for="new-genre">Genre:</label>
         <input type="text" name="genre" id="new-genre"/>
+        <label for="new-animated">Animated:</label>
+        <input type="text" name="is-animated" id="new-animated" placeholder="Use True or False"/>
+        <label for="new-live-action">Live Action:</label>
+        <input type="text" name="live-action" id="new-live-action" placeholder="Use True or False">
         <label for="new-description">Description:</label>
         <textarea name="new-description" id="new-description"></textarea>
-        <input type="submit" id="add-movie" value="Add Movie" />
-        <input type="submit" id="add-to-favorite" value="Add To Favorite" />
-        <input type="submit" id="add-to-watchlist" value="Add To Watchlist" />
+        <input type="submit" id="add-movie-button" value="Add Movie" />
+        <input type="submit" id="add-to-favorite-button" value="Add To Favorite" />
+        <input type="submit" id="add-to-watchlist-button" value="Add To Watchlist" />
       </form>
     </body>
 </html>

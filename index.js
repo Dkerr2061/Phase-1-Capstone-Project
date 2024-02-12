@@ -1,4 +1,5 @@
 const mainMovieDisplayDiv = document.getElementById('movie-display')
+// console.log(mainMovieDisplayDiv)
 
 const clickOnMovies = (movies) => {
   const movieDetailDiv = document.getElementById('movie-detail')
@@ -25,6 +26,12 @@ const clickOnMovies = (movies) => {
 
   const movieDetailGenre = document.getElementById('movie-detail-genre')
     movieDetailGenre.textContent = movies.genre
+
+  const movieDetailIsAnimated = document.getElementById('movie-detail-is-animated')
+      movieDetailIsAnimated.textContent = movies.animated
+
+  const movieDetailIsLiveAction = document.getElementById('movie-detail-live-action')
+      movieDetailIsLiveAction.textContent = movies.liveAction
 
   const movieDetailDescription = document.getElementById('movie-detail-description')
     movieDetailDescription.textContent = movies.description
@@ -61,7 +68,48 @@ const deleteMoviesFromFavoriteDatabase = () => {}
 
 const deleteMoviesFromWatchlistDatabase = () => {}
 
-const handleSubmit = () => {}
+const handleSubmit = () => {
+  const newMovieForm = document.getElementById('add-movie')
+    newMovieForm.addEventListener('submit', (event) => {
+        event.preventDefault()
+        console.log(event)
+  const newMovieName = document.getElementById('new-name')
+  const newMovieYear = document.getElementById('new-release-year')
+  const newMovieImage = document.getElementById('new-movie-poster')
+  const newMovieDirector = document.getElementById('new-director')
+  const newLeadActor = document.getElementById('new-lead-actor')
+  const newSupportActor = document.getElementById('new-support-actor')
+  const newSecondSupportActor = document.getElementById('new-second-support-actor')
+  const newMovieGenre = document.getElementById('new-genre')
+  const newMovieIsAnimated = document.getElementById('new-animated')
+  const newMovieLiveAction = document.getElementById('new-live-action')
+  const newMovieDescription = document.getElementById('new-description')
+  const movieImageElement = document.createElement('img')
+      movieImageElement.src = newMovieImage.value
+      console.log(mainMovieDisplayDiv)
+      mainMovieDisplayDiv.appendChild(movieImageElement)
+  const newMovieObject = {
+    name: newMovieName.value,
+    releaseYear: newMovieYear.value,
+    topCast: {
+      leadActor: newLeadActor.value,
+      supportActor: newSupportActor.value,
+      secondSupportingActor: newSecondSupportActor.value
+    },
+    director: newMovieDirector.value,
+    genre: newMovieGenre.value,
+    animated: newMovieIsAnimated.value,
+    liveAction: newMovieLiveAction.value,
+    description: newMovieDescription.value,
+    moviePoster: newMovieImage.value
+  }
+  movieImageElement.addEventListener('click', () => {
+    clickOnMovies(newMovieObject)
+  })
+
+    newMovieForm.reset()
+    })
+}
 
 
 
@@ -79,7 +127,8 @@ const handleSubmit = () => {}
 
 const initialize = () => {
   displayMainMovies()
-  clickOnMovies()
+  // clickOnMovies()
+  handleSubmit()
 }
 
 initialize()

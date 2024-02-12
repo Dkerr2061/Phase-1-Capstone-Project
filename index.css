@@ -81,3 +81,7 @@ label {
 #movie-display img:last-child {
   margin-right: 0;
 }
+
+#detail-image {
+  height: 400px;
+}
