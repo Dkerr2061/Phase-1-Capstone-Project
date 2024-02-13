@@ -115,12 +115,14 @@ const displayFavoriteMovies = () => {
         movieImageElement.style.width = '100px'
 
       })
+      
+      const deleteButton = document.createElement('button')
+        deleteButton.innerText = 'Delete'
+        favoriteMovieDisplay.appendChild(deleteButton)
 
     });
   })
 }
-
-// const deleteMoviesFromFavoriteDatabase = () => {}
 
 const newMovieForm = () => {
   const newMovieForm = document.getElementById('add-movie')
@@ -166,6 +168,12 @@ const newMovieForm = () => {
 
     newMovieForm.reset()
     return newMovieObject
+    })
+}
+
+const deleteMoviesFromFavoriteDatabase = () => {
+    fetch('http://localhost:3000/favoriteList', {
+      method: 'DELETE'
     })
 }
 
