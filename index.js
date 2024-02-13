@@ -58,11 +58,8 @@ const displayMainMovies = () => {
       })
 
       movieImageElement.addEventListener('mouseenter', () => {
-        const nameBox = document.createElement('a')
         movieImageElement.style.height = '450px';
-        movieImageElement.style.width = '250px';
-        nameBox.textContent = movie.name
-        movieImageElement.appendChild(nameBox)
+        movieImageElement.style.width = '275px';
       })
 
       movieImageElement.addEventListener('mouseleave', () => {
@@ -98,13 +95,15 @@ const displayFavoriteMovies = () => {
       
     favoriteMovieData.forEach(movie => {
       const movieContainer = document.createElement('div')
+        movieContainer.classList.add('movie-container')
       const movieImageElement = document.createElement('img')
         movieImageElement.src = movie.moviePoster
         
         movieContainer.appendChild(movieImageElement)
         
         const deleteButton = document.createElement('button')
-          deleteButton.innerText = 'Delete'
+          deleteButton.innerText = 'Delete Favorite'
+          deleteButton.classList.add('delete-button')
           movieContainer.appendChild(deleteButton)
 
         favoriteMovieDisplay.appendChild(movieContainer)
@@ -115,7 +114,7 @@ const displayFavoriteMovies = () => {
 
       movieImageElement.addEventListener('mouseenter', () => {
         movieImageElement.style.height = '450px';
-        movieImageElement.style.width = '250px';
+        movieImageElement.style.width = '275px';
       })
 
       movieImageElement.addEventListener('mouseleave', () => {
@@ -125,7 +124,6 @@ const displayFavoriteMovies = () => {
       })
       
       deleteButton.addEventListener('click', () => {
-        movieImageElement.remove()
         deleteMoviesFromFavoriteDatabase(movie.id)
       })
     });
@@ -136,7 +134,7 @@ const newMovieForm = () => {
   const newMovieForm = document.getElementById('add-movie')
     newMovieForm.addEventListener('submit', (event) => {
         event.preventDefault()
-        console.log(event)
+        
   const newMovieName = document.getElementById('new-name')
   const newMovieYear = document.getElementById('new-release-year')
   const newMovieImage = document.getElementById('new-movie-poster')
@@ -185,6 +183,13 @@ const deleteMoviesFromFavoriteDatabase = (id) => {
       headers: {
         'Content-Type': 'application/json'
       }
+    })
+    .then(response => response.json())
+    .then(favoriteMovieData => {
+      favoriteMovieData.remove()
+    })
+    .catch(error => {
+      console.log(error)
     })
 }
 

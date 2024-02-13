@@ -256,40 +256,72 @@
       "liveAction": "true",
       "description": "After the murder of his childhood friend, the slick Detroit detective, Axel Foley, heads to sunny Beverly Hills, on a one-man mission to ferret out the killer and bring him to justice. Before long, Axel and his unorthodox methods unearth the lucrative drug operation of the powerful local crime kingpin, Victor Maitland; however, Foley, too, will find himself in deep trouble, as Lieutenant Andrew Bogomil wants him out of town. Now, Axel will have to team up with Detectives, John Taggart, and Billy Rosewood, to shed light on the thick conspiracy, and finish what he has started. Will Foley's total disregard for proper procedure bear fruit?",
       "moviePoster": "https://m.media-amazon.com/images/I/8112Fu8+aZL.jpg"
+    },
+    {
+      "id": "6bff",
+      "name": "Drive",
+      "releaseYear": "2011",
+      "topCast": {
+        "leadActor": "Ryan Gosling",
+        "supportActor": "Carey Mulligan",
+        "secondSupportingActor": "Bryan Cranston"
+      },
+      "director": "Nicolas Winding Refn",
+      "genre": "Drama",
+      "animated": "false",
+      "liveAction": "true",
+      "description": "This action drama follows a mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.",
+      "moviePoster": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
     }
   ],
   "favoriteList": [
     {
-      "id": "3",
-      "name": "The Game",
-      "releaseYear": 1997,
+      "id": "4",
+      "name": "The Salton Sea",
+      "releaseYear": 2002,
       "topCast": {
-        "leadActor": "Michael Douglas",
-        "supportActor": "Deborah Kara Unger",
-        "secondSupportingActor": "Sean Penn"
+        "leadActor": "Val Kilmer",
+        "supportActor": "Vincent D'Onofrio",
+        "secondSupportingActor": "Deborah Kara Unger"
       },
-      "director": "David Fincher",
-      "genre": "Mystery",
+      "director": "D.J. Caruso",
+      "genre": "Drama",
       "animated": false,
       "liveAction": true,
-      "description": "Nicholas Van Orton is a very wealthy San Francisco banker, but he is an absolute loner, even spending his birthday alone. In the year of his 48th birthday (the age his father committed suicide) his brother Conrad, who has gone long ago and surrendered to addictions of all kinds, suddenly returns and gives Nicholas a card giving him entry to unusual entertainment provided by something called Consumer Recreation Services (CRS). Giving in to curiosity, Nicholas visits CRS and all kinds of weird and bad things start to happen to him.",
-      "moviePoster": "./images/The-Game.webp"
+      "description": "After the murder of his beloved wife, Danny Parker is set adrift in a world where nothing is as it seems. On his journey he befriends slacker Jimmy the Finn and becomes involved in rescuing his neighbor Colette from her own demons. Danny is antagonized by undercover narcotics agents and sadistic dealer Pooh-Bear.",
+      "moviePoster": "./images/The-Salton-Sea.jpg"
     },
     {
-      "id": "7",
-      "name": "The Gentlemen",
-      "releaseYear": 2019,
+      "id": "6bff",
+      "name": "Drive",
+      "releaseYear": "2011",
       "topCast": {
-        "leadActor": "Matthew McConaughey",
-        "supportActor": "Charlie Hunnam",
-        "secondSupportingActor": "Michelle Dockery"
+        "leadActor": "Ryan Gosling",
+        "supportActor": "Carey Mulligan",
+        "secondSupportingActor": "Bryan Cranston"
       },
-      "director": "Guy Ritchie",
-      "genre": "Crime",
-      "animated": false,
-      "liveAction": true,
-      "description": "A talented American graduate of Oxford, using his unique skills, and audacity, creates a marijuana empire using the estates of impoverished British aristocrats. However, when he tries to sell his empire to a fellow American billionaire, a chain of events unfolds, involving blackmail, deception, mayhem and murder between street thugs, Russian oligarchs, Triad gangsters and gutter journalists.",
-      "moviePoster": "./images/The-Gentlemen.webp"
+      "director": "Nicolas Winding Refn",
+      "genre": "Drama",
+      "animated": "false",
+      "liveAction": "true",
+      "description": "This action drama follows a mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.",
+      "moviePoster": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Princess Mononoke",
+      "releaseYear": 1997,
+      "topCast": {
+        "leadActor": "Yoji Matsuda",
+        "supportActor": "Yuriko Ishida",
+        "secondSupportingActor": "Yuko Tanaka"
+      },
+      "director": "Hayao Miyazaki",
+      "genre": "Fantasy",
+      "animated": true,
+      "liveAction": false,
+      "description": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest. The ambitious Lady Eboshi and her loyal clan use their guns against the gods of the forest and a brave young woman, Princess Mononoke, who was raised by a wolf-god. Ashitaka sees the good in both sides and tries to stem the flood of blood. This is met by animosity by both sides as they each see him as supporting the enemy.",
+      "moviePoster": "./images/Princess-Mononoke.jpeg"
     }
   ]
 }
