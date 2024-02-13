@@ -85,3 +85,14 @@ label {
 #detail-image {
   height: 400px;
 }
+
+#favorite-movie-display img {
+  flex: 0 1 auto;
+  height: 150px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+#favorite-movie-display img:last-child {
+  margin-right: 0;
+}

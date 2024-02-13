@@ -192,8 +192,73 @@
       "liveAction": "true",
       "description": "Four Jack-the-lads find themselves heavily - seriously heavily - in debt to an East End hard man and his enforcers after a crooked card game. Overhearing their neighbours in the next flat plotting to hold up a group of out-of-their-depth drug growers, our heroes decide to stitch up the robbers in turn. In a way the confusion really starts when a pair of antique double-barrelled shotguns go missing in a completely different scam.",
       "moviePoster": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+    },
+    {
+      "id": "cb12",
+      "name": "Akira",
+      "releaseYear": "1988",
+      "topCast": {
+        "leadActor": "Mitsuo Iwata",
+        "supportActor": "Nozomu Sasaki",
+        "secondSupportingActor": "Mami Koyama"
+      },
+      "director": "Katsuhiro Ôtomo",
+      "genre": "Thriller",
+      "animated": "true",
+      "liveAction": "false",
+      "description": "2019. Thirty one years after being destroyed during World War III, Tokyo (now 'Neo-Tokyo') has been rebuilt and is a thriving metropolis. Shotaro Kaneda is the leader of a biker gang. His friend Tetsuo is injured in an accident and taken to a top-secret government facility. He develops telekinetic powers but decides to use them for evil rather than good. He has the same powers as Akira, the force that destroyed Tokyo in 1988, and now it appears that history will repeat itself.",
+      "moviePoster": "https://m.media-amazon.com/images/I/61cRwtDzuTL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "c861",
+      "name": "Zombieland",
+      "releaseYear": "2009",
+      "topCast": {
+        "leadActor": "Jesse Eisenberg",
+        "supportActor": "Woody Harrelson",
+        "secondSupportingActor": "Emma Stone"
+      },
+      "director": "Ruben Fleischer",
+      "genre": "Comedy",
+      "animated": "false",
+      "liveAction": "true",
+      "description": "Searching for family. In the early twenty-first century, zombies have taken over America. A shy and college student in Texas has survived by following his 30 rules: like \"look in the back seat,\" \"double-tap,\" \"avoid public restrooms.\" He decides to travel to Ohio to see if his parents are alive. He gets a ride with a savage, brutal zombie-killer headed for Florida, and soon they confront a young woman whose sister has been bitten by a zombie and wants to be put out of her suffering. The sisters were headed to an LA park with atractions they've heard is without a zombie.",
+      "moviePoster": "https://m.media-amazon.com/images/I/81baQUrM+TL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "ff28",
+      "name": "Iria: Zeiram the Bounty Hunter",
+      "releaseYear": "1994",
+      "topCast": {
+        "leadActor": "Aya Hisakawa",
+        "supportActor": "Katsue Miwa",
+        "secondSupportingActor": "Rica Matsumoto"
+      },
+      "director": "Tetsurō Amino",
+      "genre": "Sci-Fi",
+      "animated": "true",
+      "liveAction": "false",
+      "description": "Iria is a newly-certified monster hunter who saves the life of a scientist working on the \"Zeiram Project.\" Zeiram has been terrorizing local planets and kidnapping people to absorb their life force and clone them. When Iria meets up with a clone of her brother, her resolve is tested. Could her brother still be alive? Her friends help her track down the beast only to discover that it is calling for reinforcements. Iria must enter into a final showdown with Zeiram to save the planet and discover the truth about her missing brother.",
+      "moviePoster": "https://m.media-amazon.com/images/M/MV5BNTIxYzhiMDMtZjJhNC00ZjQ0LWIyNzgtNmM3ZmNkYjljYmMyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "563f",
+      "name": "Beverly Hills Cop",
+      "releaseYear": "1984",
+      "topCast": {
+        "leadActor": "Eddie Murphy",
+        "supportActor": "Judge Reinhold",
+        "secondSupportingActor": "John Ashton"
+      },
+      "director": "Martin Brest",
+      "genre": "Comedy",
+      "animated": "false",
+      "liveAction": "true",
+      "description": "After the murder of his childhood friend, the slick Detroit detective, Axel Foley, heads to sunny Beverly Hills, on a one-man mission to ferret out the killer and bring him to justice. Before long, Axel and his unorthodox methods unearth the lucrative drug operation of the powerful local crime kingpin, Victor Maitland; however, Foley, too, will find himself in deep trouble, as Lieutenant Andrew Bogomil wants him out of town. Now, Axel will have to team up with Detectives, John Taggart, and Billy Rosewood, to shed light on the thick conspiracy, and finish what he has started. Will Foley's total disregard for proper procedure bear fruit?",
+      "moviePoster": "https://m.media-amazon.com/images/I/8112Fu8+aZL.jpg"
     }
   ],
-  "toWatchList": [],
-  "favoriteList": []
+  "favoriteList": [
+  
+  ]
 }
