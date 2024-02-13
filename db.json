@@ -276,53 +276,20 @@
       "moviePoster": "./images/The-Game.webp"
     },
     {
-      "id": "10",
-      "name": "Jin-Roh: The Wolf Brigade",
-      "releaseYear": 1999,
+      "id": "7",
+      "name": "The Gentlemen",
+      "releaseYear": 2019,
       "topCast": {
-        "leadActor": "Yoshikazu Fujiki",
-        "supportActor": "Sumi Mutoh",
-        "secondSupportingActor": "Hiroyuki Kinosha"
+        "leadActor": "Matthew McConaughey",
+        "supportActor": "Charlie Hunnam",
+        "secondSupportingActor": "Michelle Dockery"
       },
-      "director": "Kenji Kamiyama",
-      "secondDirector": "Hiroyuki Okiura",
-      "genre": "Drama",
-      "animated": true,
-      "liveAction": false,
-      "description": "Ten years after the end of World War II; anti-terror policeman Fuse gets suspended from service after the suicide by self-detonation of a young terrorist girl during an operation, as he failed to shoot her in time. When he tries to gather some information about her, he meets her sister and befriends with her. Both get dragged into the rivalries between the administration of the police and the counter terrorism commando unit 'Jin Roh' (human wolves).",
-      "moviePoster": "./images/jin-roh.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Pulp Fiction",
-      "releaseYear": 1994,
-      "topCast": {
-        "leadActor": "Samuel L. Jackson",
-        "supportActor": "John Travolta",
-        "secondSupportingActor": "Uma Thurman"
-      },
-      "director": "Quentin Tarantino",
+      "director": "Guy Ritchie",
       "genre": "Crime",
       "animated": false,
       "liveAction": true,
-      "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
-      "moviePoster": "./images/Pulp-Fiction.jpeg"
-    },
-    {
-      "id": "8",
-      "name": "Neon Genesis Evangelion: The End of Evangelion",
-      "releaseYear": 1997,
-      "topCast": {
-        "leadActor": "Megumi Ogata",
-        "supportActor": "Megumi Hayashibara",
-        "secondSupportingActor": "Yuko Miyamura"
-      },
-      "director": "Hideaki Anno",
-      "genre": "Drama",
-      "animated": true,
-      "liveAction": false,
-      "description": "After the defeat of the final Angel, Shinji Ikari falls into a deep depression. When SEELE orders the JSSDF to make a surprise attack on NERV's headquarters, Gendo Ikari retreats down into Terminal Dogma along with Rei Ayanami, where he begins to advance his own plans for the Human Instrumentality Project. Eventually, Shinji is pushed to the limits of his sanity as he is forced to decide the fate of humanity.",
-      "moviePoster": "./images/EndofEva.jpg"
+      "description": "A talented American graduate of Oxford, using his unique skills, and audacity, creates a marijuana empire using the estates of impoverished British aristocrats. However, when he tries to sell his empire to a fellow American billionaire, a chain of events unfolds, involving blackmail, deception, mayhem and murder between street thugs, Russian oligarchs, Triad gangsters and gutter journalists.",
+      "moviePoster": "./images/The-Gentlemen.webp"
     }
   ]
 }

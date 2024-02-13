@@ -97,9 +97,17 @@ const displayFavoriteMovies = () => {
   .then(favoriteMovieData => {
       
     favoriteMovieData.forEach(movie => {
+      const movieContainer = document.createElement('div')
       const movieImageElement = document.createElement('img')
         movieImageElement.src = movie.moviePoster
-        favoriteMovieDisplay.appendChild(movieImageElement)
+        
+        movieContainer.appendChild(movieImageElement)
+        
+        const deleteButton = document.createElement('button')
+          deleteButton.innerText = 'Delete'
+          movieContainer.appendChild(deleteButton)
+
+        favoriteMovieDisplay.appendChild(movieContainer)
       
       movieImageElement.addEventListener('click', () => {
         clickOnMovies(movie)
@@ -116,10 +124,10 @@ const displayFavoriteMovies = () => {
 
       })
       
-      const deleteButton = document.createElement('button')
-        deleteButton.innerText = 'Delete'
-        favoriteMovieDisplay.appendChild(deleteButton)
-
+      deleteButton.addEventListener('click', () => {
+        movieImageElement.remove()
+        deleteMoviesFromFavoriteDatabase(movie.id)
+      })
     });
   })
 }
@@ -171,9 +179,12 @@ const newMovieForm = () => {
     })
 }
 
-const deleteMoviesFromFavoriteDatabase = () => {
-    fetch('http://localhost:3000/favoriteList', {
-      method: 'DELETE'
+const deleteMoviesFromFavoriteDatabase = (id) => {
+    fetch(`http://localhost:3000/favoriteList/${id}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json'
+      }
     })
 }
 
