@@ -272,6 +272,22 @@
       "liveAction": "true",
       "description": "This action drama follows a mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.",
       "moviePoster": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "c49d",
+      "name": "Suzume",
+      "releaseYear": "2022",
+      "topCast": {
+        "leadActor": "Nanoka Hara",
+        "supportActor": "Hokuto Matsumura",
+        "secondSupportingActor": "Eri Fukatsu"
+      },
+      "director": " Makoto Shinkai",
+      "genre": "Fantasy",
+      "animated": "true",
+      "liveAction": "false",
+      "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
+      "moviePoster": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg"
     }
   ],
   "favoriteList": [
@@ -322,6 +338,22 @@
       "liveAction": false,
       "description": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest. The ambitious Lady Eboshi and her loyal clan use their guns against the gods of the forest and a brave young woman, Princess Mononoke, who was raised by a wolf-god. Ashitaka sees the good in both sides and tries to stem the flood of blood. This is met by animosity by both sides as they each see him as supporting the enemy.",
       "moviePoster": "./images/Princess-Mononoke.jpeg"
+    },
+    {
+      "id": "c49d",
+      "name": "Suzume",
+      "releaseYear": "2022",
+      "topCast": {
+        "leadActor": "Nanoka Hara",
+        "supportActor": "Hokuto Matsumura",
+        "secondSupportingActor": "Eri Fukatsu"
+      },
+      "director": " Makoto Shinkai",
+      "genre": "Fantasy",
+      "animated": "true",
+      "liveAction": "false",
+      "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
+      "moviePoster": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg"
     }
   ]
 }

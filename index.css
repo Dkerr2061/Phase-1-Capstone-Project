@@ -9,7 +9,7 @@ body {
 }
 
 
-header, #liked-movies-title {
+header, #liked-movies-title, #form-instructions {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
