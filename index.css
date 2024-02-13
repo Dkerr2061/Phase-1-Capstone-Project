@@ -96,3 +96,13 @@ label {
 #favorite-movie-display img:last-child {
   margin-right: 0;
 }
+
+#like-button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: miller-display;
+  border-radius: 30px;
+  width: 30;
+}

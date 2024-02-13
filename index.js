@@ -35,6 +35,12 @@ const clickOnMovies = (movies) => {
 
   const movieDetailDescription = document.getElementById('movie-detail-description')
     movieDetailDescription.textContent = movies.description
+
+  const likeButtonElement = document.getElementById('like-button')
+      likeButtonElement.addEventListener('click', () => {
+        
+        postToDatabase('http://localhost:3000/favoriteList', movies)
+      })
 }
 
 const displayMainMovies = () => {
@@ -87,66 +93,28 @@ const postToDatabase = (url, data) => {
 const displayFavoriteMovies = () => {
   fetch('http://localhost:3000/favoriteList')
   .then(response => response.json())
-  .then(favoriteMovieObject => {
-    favoriteMovieObject.forEach(movie => {
-      const favoriteMovieImageElement = document.createElement('img')
-        favoriteMovieImageElement.src = movie.moviePoster
-        favoriteMovieDisplay.appendChild(favoriteMovieImageElement)
+  .then(favoriteMovieData => {
+      
+    favoriteMovieData.forEach(movie => {
+      const movieImageElement = document.createElement('img')
+        movieImageElement.src = movie.moviePoster
+        favoriteMovieDisplay.appendChild(movieImageElement)
+      
+      movieImageElement.addEventListener('click', () => {
+        clickOnMovies(movie)
+      })
 
-        favoriteMovieImageElement.addEventListener('click', () => {
-          clickOnMovies(movie)
-        })
-        
-    })
+      movieImageElement.addEventListener('mouseenter', () => {
+        movieImageElement.style.height = '450px';
+        movieImageElement.style.width = '250px';
+      })
+
+      movieImageElement.addEventListener('mouseleave', () => {
+        movieImageElement.style.height = '150px'
+      })
+
+    });
   })
-}
-
-const addMoviesToFavoriteDatabase = () => {
-  const newMovieForm = document.getElementById('add-movie')
-    newMovieForm.addEventListener('submit', (event) => {
-        event.preventDefault()
-        console.log(event)
-  const newMovieName = document.getElementById('new-name')
-  const newMovieYear = document.getElementById('new-release-year')
-  const newMovieImage = document.getElementById('new-movie-poster')
-  const newMovieDirector = document.getElementById('new-director')
-  const newLeadActor = document.getElementById('new-lead-actor')
-  const newSupportActor = document.getElementById('new-support-actor')
-  const newSecondSupportActor = document.getElementById('new-second-support-actor')
-  const newMovieGenre = document.getElementById('new-genre')
-  const newMovieIsAnimated = document.getElementById('new-animated')
-  const newMovieLiveAction = document.getElementById('new-live-action')
-  const newMovieDescription = document.getElementById('new-description')
-  const movieImageElement = document.createElement('img')
-      movieImageElement.src = newMovieImage.value
-      favoriteMovieDisplay.appendChild(movieImageElement)
-
-  const newMovieObject = {
-    name: newMovieName.value,
-    releaseYear: newMovieYear.value,
-    topCast: {
-      leadActor: newLeadActor.value,
-      supportActor: newSupportActor.value,
-      secondSupportingActor: newSecondSupportActor.value
-    },
-    director: newMovieDirector.value,
-    genre: newMovieGenre.value,
-    animated: newMovieIsAnimated.value,
-    liveAction: newMovieLiveAction.value,
-    description: newMovieDescription.value,
-    moviePoster: newMovieImage.value
-  }
-  movieImageElement.addEventListener('click', () => {
-    clickOnMovies(newMovieObject)
-  })
-
-  const favoriteMovieListDatabaseButton = document.getElementById('add-to-favorite-button')
-    favoriteMovieListDatabaseButton.addEventListener('click', () => {
-      postToDatabase('http://localhost:3000/favoriteList', newMovieObject)})
-
-    newMovieForm.reset()
-    return newMovieObject
-    })
 }
 
 
@@ -218,7 +186,7 @@ const newMovieForm = () => {
 const initialize = () => {
   displayMainMovies()
    newMovieForm()
-   addMoviesToFavoriteDatabase()
+  //  addMoviesToFavoriteDatabase()
 }
 
 initialize()
