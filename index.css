@@ -9,7 +9,7 @@ body {
 }
 
 
-header {
+header, #liked-movies-title {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -84,6 +84,13 @@ label {
 
 #detail-image {
   height: 400px;
+}
+
+#favorite-movie-display {
+  display: flex;
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: calc(100vw - 2rem);
 }
 
 #favorite-movie-display img {

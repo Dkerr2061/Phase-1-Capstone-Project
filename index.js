@@ -66,6 +66,7 @@ const displayMainMovies = () => {
       })
 
       movieImageElement.addEventListener('mouseleave', () => {
+        movieImageElement.style.width = '100px'
         movieImageElement.style.height = '150px'
       })
 
@@ -111,16 +112,15 @@ const displayFavoriteMovies = () => {
 
       movieImageElement.addEventListener('mouseleave', () => {
         movieImageElement.style.height = '150px'
+        movieImageElement.style.width = '100px'
+
       })
 
     });
   })
 }
 
-
 // const deleteMoviesFromFavoriteDatabase = () => {}
-
-
 
 const newMovieForm = () => {
   const newMovieForm = document.getElementById('add-movie')
@@ -169,24 +169,10 @@ const newMovieForm = () => {
     })
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const initialize = () => {
   displayMainMovies()
    newMovieForm()
-  //  addMoviesToFavoriteDatabase()
+  displayFavoriteMovies()
 }
 
 initialize()
