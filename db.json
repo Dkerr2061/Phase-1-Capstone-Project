@@ -288,25 +288,25 @@
       "liveAction": "false",
       "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
       "moviePoster": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg"
+    },
+    {
+      "id": "7514",
+      "name": "Borat",
+      "releaseYear": "2006",
+      "topCast": {
+        "leadActor": "Sacha Baron Cohen",
+        "supportActor": "Ken Davitian",
+        "secondSupportingActor": "Luenell"
+      },
+      "director": "Larry Charles",
+      "genre": "Comedy",
+      "animated": "false",
+      "liveAction": "true",
+      "description": "Borat Sagdiyev is a TV reporter of a popular show in Kazakhstan as Kazakhstan's sixth most famous man and a leading journalist. He is sent from his home to America by his government to make a documentary about American society and culture. Borat takes a course in New York City to understand American humor. While watching Baywatch on TV, Borat discovers how beautiful their women are in the form of C. J. Parker, who was played by actress Pamela Anderson who hails from Malibu, California. He decides to go on a cross-country road trip to California in a quest to make her his wife and take her back to his country. On his journey Borat and his producer encounter a country full of strange and wonderful Americans, real people in real chaotic situations with hysterical consequences.",
+      "moviePoster": "https://m.media-amazon.com/images/I/718wPxP90CL._AC_UF894,1000_QL80_.jpg"
     }
   ],
   "favoriteList": [
-    {
-      "id": "4",
-      "name": "The Salton Sea",
-      "releaseYear": 2002,
-      "topCast": {
-        "leadActor": "Val Kilmer",
-        "supportActor": "Vincent D'Onofrio",
-        "secondSupportingActor": "Deborah Kara Unger"
-      },
-      "director": "D.J. Caruso",
-      "genre": "Drama",
-      "animated": false,
-      "liveAction": true,
-      "description": "After the murder of his beloved wife, Danny Parker is set adrift in a world where nothing is as it seems. On his journey he befriends slacker Jimmy the Finn and becomes involved in rescuing his neighbor Colette from her own demons. Danny is antagonized by undercover narcotics agents and sadistic dealer Pooh-Bear.",
-      "moviePoster": "./images/The-Salton-Sea.jpg"
-    },
     {
       "id": "6bff",
       "name": "Drive",
@@ -324,36 +324,20 @@
       "moviePoster": "https://m.media-amazon.com/images/I/91vya3UmldL._AC_UF894,1000_QL80_.jpg"
     },
     {
-      "id": "5",
-      "name": "Princess Mononoke",
-      "releaseYear": 1997,
+      "id": "2",
+      "name": "Pulp Fiction",
+      "releaseYear": 1994,
       "topCast": {
-        "leadActor": "Yoji Matsuda",
-        "supportActor": "Yuriko Ishida",
-        "secondSupportingActor": "Yuko Tanaka"
+        "leadActor": "Samuel L. Jackson",
+        "supportActor": "John Travolta",
+        "secondSupportingActor": "Uma Thurman"
       },
-      "director": "Hayao Miyazaki",
-      "genre": "Fantasy",
-      "animated": true,
-      "liveAction": false,
-      "description": "While protecting his village from rampaging boar-god/demon, a confident young warrior, Ashitaka, is stricken by a deadly curse. To save his life, he must journey to the forests of the west. Once there, he's embroiled in a fierce campaign that humans were waging on the forest. The ambitious Lady Eboshi and her loyal clan use their guns against the gods of the forest and a brave young woman, Princess Mononoke, who was raised by a wolf-god. Ashitaka sees the good in both sides and tries to stem the flood of blood. This is met by animosity by both sides as they each see him as supporting the enemy.",
-      "moviePoster": "./images/Princess-Mononoke.jpeg"
-    },
-    {
-      "id": "c49d",
-      "name": "Suzume",
-      "releaseYear": "2022",
-      "topCast": {
-        "leadActor": "Nanoka Hara",
-        "supportActor": "Hokuto Matsumura",
-        "secondSupportingActor": "Eri Fukatsu"
-      },
-      "director": " Makoto Shinkai",
-      "genre": "Fantasy",
-      "animated": "true",
-      "liveAction": "false",
-      "description": "Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey \"looking for doors.\" Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if \"it\" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's \"journey of closing doors\" begins.",
-      "moviePoster": "https://i.ebayimg.com/images/g/bnAAAOSw3HdkTvqm/s-l1200.jpg"
+      "director": "Quentin Tarantino",
+      "genre": "Crime",
+      "animated": false,
+      "liveAction": true,
+      "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+      "moviePoster": "./images/Pulp-Fiction.jpeg"
     }
   ]
 }

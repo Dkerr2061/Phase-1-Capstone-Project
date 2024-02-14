@@ -124,6 +124,7 @@ const displayFavoriteMovies = () => {
       })
       
       deleteButton.addEventListener('click', () => {
+        movieImageElement.parentNode.remove()
         deleteMoviesFromFavoriteDatabase(movie.id)
       })
     });
@@ -186,7 +187,7 @@ const deleteMoviesFromFavoriteDatabase = (id) => {
     })
     .then(response => response.json())
     .then(favoriteMovieData => {
-      favoriteMovieData.remove()
+      delete favoriteMovieData
     })
     .catch(error => {
       console.log(error)
